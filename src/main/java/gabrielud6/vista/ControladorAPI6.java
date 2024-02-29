@@ -76,6 +76,11 @@ public class ControladorAPI6 implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+
+        campoPuntos.setEditable(false);
+        campoJuego.setEditable(false);
+        campoJugador.setEditable(false);
+
         obtenerDatos();
 
         contenidoJuego.setVisible(false);
